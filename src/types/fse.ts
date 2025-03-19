@@ -11,6 +11,7 @@ export interface AIRecord {
   id: number
   ticketNumber: string
   ticketType: string
+  userQuestion: string
   guide: string
   report: string
   timestamp: Date
